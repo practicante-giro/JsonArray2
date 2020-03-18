@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginTop="145dp"
+    android:layout_weight="1"
+    android:stretchColumns="1">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="3dp">
+
+        <TextView
+            android:padding="3dip"
+            android:text="@string/nombres"
+            android:textColor="@color/colorText" />
+
+        <TextView
+            android:id="@+id/idNombres"
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Carlos Daniel"
+            android:textColor="@color/colorTextSecondary"
+            tools:ignore="RtlHardcoded" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="@string/apellido1"
+            android:textColor="@color/colorText" />
+
+        <TextView
+            android:id="@+id/idApe1"
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Santana"
+            android:textColor="@color/colorTextSecondary"
+            tools:ignore="RtlHardcoded" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="@string/apellido2"
+            android:textColor="@color/colorText"/>
+
+        <TextView
+            android:id="@+id/idApe2"
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Solorza"
+            android:textColor="@color/colorTextSecondary" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="@string/fecha_ingreso"
+            android:textColor="@color/colorText"/>
+
+        <TextView
+            android:id="@+id/idFechaIn"
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="30-09-2012"
+            android:textColor="@color/colorTextSecondary" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="@string/rfc"
+            android:textColor="@color/colorText"/>
+
+        <TextView
+            android:id="@+id/idRfc"
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="SARC660613BSA"
+            android:textColor="@color/colorTextSecondary" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="@string/curp"
+            android:textColor="@color/colorText"/>
+
+        <TextView
+            android:id="@+id/idCurp"
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="SASC8506145HJTRR04"
+            android:textColor="@color/colorTextSecondary" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="@string/departamento"
+            android:textColor="@color/colorText"/>
+
+        <TextView
+            android:id="@+id/idDepartamento"
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Ventas"
+            android:textColor="@color/colorTextSecondary" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="@string/puesto"
+            android:textColor="@color/colorText"/>
+
+        <TextView
+            android:id="@+id/idPuesto"
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Vendedor"
+            android:textColor="@color/colorTextSecondary" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="@string/sucursal"
+            android:textColor="@color/colorText"/>
+
+        <TextView
+            android:id="@+id/idSucursal"
+            android:padding="3dip"
+            android:text="STANDARD PROFIL MEXICO S.A DE"
+            android:textColor="@color/colorTextSecondary" />
+    </TableRow>
+
+</TableLayout>

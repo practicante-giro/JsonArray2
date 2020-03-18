@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginTop="145dp"
+    android:layout_weight="1"
+    android:stretchColumns="1">
+        <TableRow>
+
+            <TextView
+                android:padding="3dip"
+                android:text="@string/nss"
+                android:textColor="@color/colorText"/>
+
+            <TextView
+                android:id="@+id/idNss"
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="0517839111-3"
+                android:textColor="@color/colorTextSecondary" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:padding="3dip"
+                android:text="@string/detalle_anti"
+                android:textColor="@color/colorText"/>
+
+            <TextView
+                android:id="@+id/idDetAnti"
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="5 años 10 meses 12 dias"
+                android:textColor="@color/colorTextSecondary" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:padding="3dip"
+                android:text="@string/sueldo_diario"
+                android:textColor="@color/colorText"/>
+
+            <TextView
+                android:id="@+id/idSueldoDia"
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="$2,982.41"
+                android:textColor="@color/colorTextSecondary" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:padding="3dip"
+                android:text="@string/salario_integrado"
+                android:textColor="@color/colorText"/>
+
+            <TextView
+                android:id="@+id/idSalarioIn"
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="$2,015.00"
+                android:textColor="@color/colorTextSecondary" />
+        </TableRow>
+
+</TableLayout>

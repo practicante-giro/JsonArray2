@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">JsonArray2</string>
+    <string name="nombres">Nombres</string>
+    <string name="apellido1">Apellido Paterno</string>
+    <string name="apellido2">Apellido Materno</string>
+    <string name="fecha_ingreso">Fecha de Ingreso</string>
+    <string name="rfc">RFC</string>
+    <string name="curp">Curp</string>
+    <string name="departamento">Departamento</string>
+    <string name="puesto">Puesto</string>
+    <string name="sucursal">Sucursal</string>
+
+    <string name="calle">Calle</string>
+    <string name="numero_interior">Número Interior</string>
+    <string name="numero_exterior">Número Exterior</string>
+    <string name="colonia">Colonia</string>
+    <string name="codigo_postal">Código Postal</string>
+    <string name="municipio">Municipio</string>
+    <string name="estado">Estado</string>
+    <string name="telefono1">Teléfono 1</string>
+    <string name="telefono2">Teléfono 2</string>
+
+    <string name="nss">Número de Seguro Social</string>
+    <string name="detalle_anti">Detalle de Antigüedad</string>
+    <string name="sueldo_diario">Sueldo Diario</string>
+    <string name="salario_integrado">Salario Integrado</string>
+
+
+
+</resources>

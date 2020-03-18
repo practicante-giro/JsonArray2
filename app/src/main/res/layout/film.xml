@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cardView"
+    android:layout_margin="20dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="title"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/episode_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="episode"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/opening_crawl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="opening"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/director"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="director"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/producer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="producer"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/release_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="release"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/species"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="species"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/starships"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="starships"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/vehicles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="vehicles"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/characters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="characters"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/planets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="planets"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="url"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/created"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="created"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/edited"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="edited"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
